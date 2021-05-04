@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <input type="checkbox" id="dark-mode"/>
+    <div class="container">
+      <header>
+        <nav class="navigation">
+          <a href="">Accueil</a>
+          <a href="">Showcase</a>
+          <a href="">Contact</a>
+          <label for="dark-mode" class="darken__box">
+            <div class="darken__switch"></div>
+          </label>
+        </nav>
+      </header>
+      <div class="wrapper">
+        <h1>Javascr1t 1s b3ast</h1>
+        <div class="info">
+          <h2 class="title__info">Insérez vos informations</h2>
+          <label for="f-name">Nom</label>
+          <input type="text" name="firstname" id="f-name" placeholder="tapez votre nom">
+          <label for="l-name">Prénom</label>
+          <input type="text" name="lastname" id="l-name" placeholder="tapez votre prénom">
+          <label for="p-number">Téléphone</label>
+          <input type="tel" name="phonenumber" id="p-number" placeholder="tapez votre téléphone">
+          <label for="e-mail">Email</label>
+          <input type="email" name="email" id="e-mail" placeholder="tapez votre email">
+        </div>
+        <div class="info-recap">
+          <h2 class="title__info-recap">Votre fiche</h2>
+          <p>Mon nom :</p><span id="f-name-r"></span>
+          <p>Mon prénom :</p><span id="l-name-r"></span>
+          <p>Mon numéro de téléphone :</p><span id="p-number-r"></span>
+          <p>Mon email :</p><span id="e-mail-r"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
