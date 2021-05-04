@@ -9,16 +9,16 @@
 
 
 html{
-    cursor: url('/champignon.png'), auto;
+    cursor: url('champignon.png'), auto;
     height: 100%;
 }
 
 a{
-  cursor: url('/abeille.png'), auto;
+  cursor: url('abeille.png'), auto;
 }
 
 input, label{
-  cursor: url('/gland.png'), auto;
+  cursor: url('gland.png'), auto;
 }
 
 body{
@@ -67,7 +67,7 @@ body{
   width: 50px;
   border-radius: 3rem;
   box-shadow: rgb(199, 199, 199) 0 0 10px;
-  cursor:url('/lune.png'), auto;
+  cursor:url('lune.png'), auto;
 }
 
 .darken__switch{
@@ -84,7 +84,7 @@ body{
 }
 
 #dark-mode:checked + .container .darken__box{
-  cursor: url('/dim.png'), auto;
+  cursor: url('dim.png'), auto;
 }
 
 #dark-mode:checked + .container .darken__switch{
